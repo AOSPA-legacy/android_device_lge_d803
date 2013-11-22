@@ -23,6 +23,3 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PROPERTY_OVERRIDES += \
         telephony.lteOnCdmaDevice=1 \
         ro.telephony.default_network=10
-
-PRODUCT_COPY_FILES += \
-        frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
