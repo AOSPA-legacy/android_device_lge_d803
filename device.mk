@@ -23,3 +23,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PROPERTY_OVERRIDES += \
         telephony.lteOnCdmaDevice=1 \
         ro.telephony.default_network=10
+
+# NFC packages
+PRODUCT_PACKAGES += \
+    nfc_nci.g2 \
+    NfcNci
