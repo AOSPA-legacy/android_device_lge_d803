@@ -21,8 +21,8 @@ $(call inherit-product, device/lge/g2-common/g2.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
-        telephony.lteOnCdmaDevice=1 \
-        ro.telephony.default_network=10
+        telephony.lteOnGsmDevice=1 \
+        ro.telephony.default_network=9
 
 # NFC packages
 PRODUCT_PACKAGES += \
