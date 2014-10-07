@@ -17,14 +17,14 @@
     },
     {
         "remote":       "github",
-        "repository":   "dr87/4.4_g2-vendor",
+        "repository":   "CardinalTesting/proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "master"
+        "revision":     "test"
     },
     {
         "remote":       "github",
         "repository":   "jakew02/android_kernel_lge_msm8974",
         "target_path":  "kernel/lge/msm8974",
-        "revision":     "fresh_20c"
+        "revision":     "android-4.4"
     }
 ]
