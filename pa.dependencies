@@ -12,6 +12,12 @@
         "revision":     "cm-11.0"
     },
     {
+        "remote":       "cm",
+        "repository":   "CyanogenMod/android_device_qcom_common",
+        "target_path":	"device/qcom/common",
+        "revision":     "cm-11.0"
+    },      
+    {
         "repository":   "AOSPA-legacy/android_device_lge_g2-common",
         "target_path":  "device/lge/g2-common"
     },
