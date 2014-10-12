@@ -7,25 +7,19 @@
     },
     {
         "remote":       "cm",
-        "repository":   "CyanogenMod/android_hardware_qcom_msm8960",
-        "target_path":  "hardware/qcom/msm8960",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "cm",
         "repository":   "CyanogenMod/android_device_qcom_common",
         "target_path":	"device/qcom/common",
         "revision":     "cm-11.0"
-    },      
+    },
     {
         "repository":   "AOSPA-legacy/android_device_lge_g2-common",
         "target_path":  "device/lge/g2-common"
     },
     {
         "remote":       "github",
-        "repository":   "CardinalTesting/proprietary_vendor_lge",
+        "repository":   "jakew02/proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "test"
+        "revision":     "android-4.4"
     },
     {
         "remote":       "github",
@@ -34,3 +28,4 @@
         "revision":     "android-4.4"
     }
 ]
+
