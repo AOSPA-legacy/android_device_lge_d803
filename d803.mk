@@ -26,14 +26,3 @@ $(call inherit-product, device/lge/g2-common/g2.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
-
-PRODUCT_PROPERTY_OVERRIDES += \
-        telephony.lteOnGsmDevice=1 \
-        ro.telephony.default_network=9
-
-# NFC packages
-PRODUCT_PACKAGES += \
-    nfc_nci.g2 \
-    NfcNci
